@@ -25,7 +25,7 @@
             <ul>
                 <a href=""><li>Home</li></a>
                 <a href=""><li>About Us</li></a>
-                <a href=""><li>Courses</li></a>
+                <a href="/courses.php"><li>Courses</li></a>
                 <a href=""><li>Programs</li></a>
             </ul>
             <div class="side-bar">
