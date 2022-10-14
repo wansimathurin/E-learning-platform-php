@@ -1,4 +1,4 @@
-
+// course category area
 $(document).ready(function(){
    $('#categories .owl-carousel').owlCarousel({
       loop:true,
@@ -6,7 +6,7 @@ $(document).ready(function(){
       nav:true,
       responsive:{
           0:{
-              items:1
+              items:2
           },
           600:{
               items:3
@@ -16,6 +16,7 @@ $(document).ready(function(){
           }
       }
   })
+//   course banner area 
    $('#course-barn .owl-carousel').owlCarousel({
       loop:true,
       margin:10,

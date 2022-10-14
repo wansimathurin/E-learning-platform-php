@@ -1,5 +1,5 @@
 <h1 class="text-center title">Explore Top Courses</h1>
-    <div class="row courses my-5">
+    <div id="homeCourses" class="row courses my-5 d-flex align-items-center justify-content-center">
         <div class="col-lg-3">
             <div class="card" style="width: 18rem;">
               <video poster="/images/couse1.jpg" height="190px" controls class="card-img-top">
