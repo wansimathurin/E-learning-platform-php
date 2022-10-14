@@ -44,6 +44,9 @@
     font-weight: 900 !important;
     font-family: 'Pacifico', cursive !important;
 }
+.nav-bar .brand-e a{
+    color: #fff;
+}
 .nav-bar .brand-e h3 span{
     color: #000;
     font-size: 40px;
@@ -162,6 +165,22 @@
     color: #fff;
 }
 
+#course-barn{
+    position: relative !important;
+}
+#course-barn .item{
+    height: 100%;
+    width: 100%;
+    background-color: #212529;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 15px;
+    cursor: pointer;
+    color: #fff;
+}
+
 
 .owl-prev{
     position: absolute !important;
@@ -188,4 +207,17 @@
     border-radius: 30px;
     background-color: #F27137 !important;
     color: #fff !important;
+}
+
+.courses .card{
+    cursor: pointer;
+}
+
+.courses .card:hover{
+    cursor: pointer;
+}
+
+
+#mainCourse h5{
+    font-size: 16px;
 }
