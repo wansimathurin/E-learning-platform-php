@@ -20,14 +20,21 @@
     <nav class="nav-bar">
         <div class="container">
             <div class="brand-e">
-                <h3>e-learning<span>.</span></h3>
+                <a href="/"><h3>e-learning<span>.</span></h3></a>
             </div>
             <ul>
                 <a href=""><li>Home</li></a>
                 <a href=""><li>About Us</li></a>
-                <a href=""><li>Courses</li></a>
-                <a href=""><li>Programs</li></a>
+                <a href="/courses.php"><li>Courses</li></a>
+                 <?php 
+                    if($_SESSION['name'] == 'Mathurin Wansi'){
+                        echo '<a href="/admin/main.admin.php" class="btn btn-sm rounded-pill bg-dark"><li>Dashboard</li></a>';
+                    }else{
+                        echo '<a href=""><li>Programs</li></a>';
+                    }
+                 ?>
             </ul>
+            
             <div class="side-bar">
                  <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
                 <div class="profile">

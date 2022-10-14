@@ -71,4 +71,4 @@
             </div>
         </div>
     </div>
-     <button class="btn btn-lg btn-dark rounded-pill">View all courses</button>
+     <a href="../courses.php"><button class="btn btn-lg btn-dark rounded-pill">View all courses</button></a>
