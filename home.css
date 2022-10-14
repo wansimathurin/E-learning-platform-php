@@ -28,15 +28,15 @@
     justify-content: space-between;
     width: 100%;
 }
-.nav-bar .container ul{
+.mainNavs{
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 40%;
-    color: #fff !important;
+    color: #fff ;
 }
 .nav-bar .container ul a{
-    color: #fff !important;
+    color: #fff ;
     margin-top: 10px;
 }
 .nav-bar .brand-e h3{
