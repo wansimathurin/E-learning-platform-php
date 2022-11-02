@@ -221,3 +221,18 @@
 #mainCourse h5{
     font-size: 16px;
 }
+
+
+.catBanner{
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #F27137;
+}
+
+.catBanner img{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
