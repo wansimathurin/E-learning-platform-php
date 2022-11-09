@@ -36,24 +36,18 @@ if(isset($_SESSION['name'])){
                   }
                ?>
                <div class="row">
-                  <div class="col-lg-6">
-                     <form class="form-group center-el h-100" method="POST" action="login.php">
-                        <h3><img src="images/e-book.png" alt="logo" width="40px"></h3>
-                        <p>Welcome to e-code-taught</p>
+                  <div class="col-lg-12">
+                     <form class="form-group center-el h-100" method="POST" action="manage-password.php">
+                        <h3><img src="images/e-book.png" alt="logo" width="150px"></h3>
+                        <p>Forgot Password ?</p>
                         <div class="div my-3">
                            <label for="email" class="text-capitalize">email</label>
                            <input type="email" id="email" name="email" class="form-control px-3 py-2 my-2" placeholder="enter your email" required>
-                           <label for="password" class="text-capitalize">password</label>
-                           <input type="password" id="password" name="password" class="form-control px-3 py-2 my-2" placeholder="enter your password" required>
-                           <span><a href="/forget-password.php" class="text-italic color">forgot password?</a></span><br>
-                           <input type="submit" class="form-btn btn btn-lg border px-3 py-2 my-4" value="SignIn" name="submit">
-                           <span>Don't have an account ?<a href="signUp.php" class="text-italic color"> SignUp</a></span><br>
+                           <input type="submit" class="form-btn btn btn-lg border px-3 py-2 my-4" value="Submit" name="submit">
+                           <span>You remember your Password ? <a href="index.php" class="text-italic color">LogIn</a></span><br>
                         </div>
                      </form>
 
-                  </div>
-                  <div class="col-lg-6">
-                     <img src="images/auth.jpg" alt="" class="card-img" width="100%">
                   </div>
                </div>
             </div>

@@ -45,7 +45,7 @@
             </ul>
 
             <div class="side-bar">
-               <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+               <a href="/search-page.php"><i class="fa-solid fa-magnifying-glass"></i></a>
                 <button class="navbar-toggler btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <i class="fa fa-bars" aria-hidden="true"></i>
                 </button>
